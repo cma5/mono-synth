@@ -1,0 +1,84 @@
+{
+	"vstgui-ui-description": {
+		"version": "1",
+		"bitmaps": {
+			"2smalleknob": {
+				"path": "C:\\Users\\Markus\\Documents\\Programming\\SNew\\modeld\\resource\\2smalleknob.png"
+			}
+		},
+		"fonts": {},
+		"colors": {},
+		"custom": {
+			"FocusDrawing": {},
+			"VST3Editor": {
+				"Path": "C:\\Users\\Markus\\Documents\\Programming\\SNew\\modeld\\resource\\newplugineditor.uidesc"
+			},
+			"UIGridController": {
+				"Grids": "1x 1,5x 5,10x 10,12x 12,15x 15"
+			},
+			"UITemplateController": {
+				"SelectedTemplate": "view"
+			},
+			"UIEditController": {
+				"EditViewScale": "1",
+				"EditorSize": "0, 0, 1300, 742",
+				"SplitViewSize_0_0": "0.8184357541899441867983000520325731486082",
+				"SplitViewSize_0_1": "0.153631284916201121815149122085131239146",
+				"SplitViewSize_1_0": "0.4853351955307262377559140986704733222723",
+				"SplitViewSize_1_1": "0.5076815642458100130696152518794406205416",
+				"SplitViewSize_2_0": "0.6500000000000000222044604925031308084726",
+				"SplitViewSize_2_1": "0.3461538461538461453059767336526419967413",
+				"TabSwitchValue": "4",
+				"Version": "1",
+				"WriteRCFile": "true"
+			},
+			"UIAttributesController": {},
+			"UIViewCreatorDataSource": {
+				"SelectedRow": "7"
+			},
+			"UIBitmapsDataSource": {
+				"SelectedRow": "0"
+			}
+		},
+		"templates": {
+			"view": {
+				"attributes": {
+					"background-color": "~ WhiteCColor",
+					"background-color-draw-style": "filled and stroked",
+					"class": "CViewContainer",
+					"mouse-enabled": "true",
+					"opacity": "1",
+					"origin": "0, 0",
+					"size": "300, 300",
+					"transparent": "false",
+					"wants-focus": "false"
+				},
+				"children": {
+					"CAnimKnob": {
+						"attributes": {
+							"angle-range": "270",
+							"angle-start": "135",
+							"bitmap": "2smalleknob",
+							"class": "CAnimKnob",
+							"default-value": "0.5",
+							"height-of-one-image": "90",
+							"inverse-bitmap": "false",
+							"max-value": "1",
+							"min-value": "0",
+							"mouse-enabled": "true",
+							"opacity": "1",
+							"origin": "100, 90",
+							"size": "90, 90",
+							"sub-pixmaps": "128",
+							"transparent": "false",
+							"value-inset": "0",
+							"wants-focus": "false",
+							"wheel-inc-value": "0.1",
+							"zoom-factor": "1.5"
+						}
+					}
+				}
+			}
+		}
+	}
+}
